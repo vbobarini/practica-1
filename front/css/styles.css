@@ -29,8 +29,9 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     justify-content: center;
     margin-top: 45px;
 }
-.user {
-    margin-right: 40px;
+
+.usuario-form {
+	text-align: center;
 }
 .btn {
     margin-top: 15px;
