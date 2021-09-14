@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Customer Service Bar</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Customer Service Bar</title>
 </head>
+
 <body>
-    <nav> 
-        <ul>
-            <li><a href="#">INICIO</a> </li>
-            <li><a href="#">PRODUCTOS</a> </li>
-            <li><a href="#">CONTACTO</a> </li>
-            <li><a href="#">QUIENES SOMOS</a> </li>
-            <li><a href="#">UBICACION</a> </li>
-        </ul>
-    </nav>
-  <h1>Customer Service Bar</h1>  
-  <form action="">
-    <label for="">Usuario:</label>
-    <input type="text">
-    <label for="">Contraseña</label>
-    <input type="password">
-    <button>Ingresar</button>
-    <p>Si no está registrado haga clic en el botón <a href="registrar.html">registrarse</a> </p>
-    
-  </form>
-  </body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">INICIO</a> </li>
+      <li><a href="#">PRODUCTOS</a> </li>
+      <li><a href="#">CONTACTO</a> </li>
+      <li><a href="#">QUIENES SOMOS</a> </li>
+      <li><a href="#">UBICACION</a> </li>
+    </ul>
+  </nav>
+  <div>
+    <h1 class="title">Customer Service Bar</h1>
+  </div>
+  <div>
+    <form action="">
+      <div class="login">
+        <label for=""></label>
+      <input type="text" placeholder="Usuario" class="user">
+      <label for=""></label>
+      <input type="password" placeholder="Contraseña">
+      </div>
+      <div class="button-container">
+        <button class="btn">Ingresar</button>
+      </div>
+      
+      <p class="check-in">Si no está registrado haga clic en el botón <a href="registrar.html" class="in">registrarse</a> </p>
+
+    </form>
+  </div>
+
+</body>
+
 </html>
