@@ -262,3 +262,24 @@ h2{
 .social a:hover{
     padding: 10px 25px;
 }
+.paragraph {
+	color: #FA0050;
+	text-align: center;
+}
+.somos {
+	color: #FA0050;
+	text-align: center;
+}
+.postres-title {
+	color: #FA0050;
+	text-align: center;
+	margin-top: 32px;
+}
+.producto {
+	width: 100%;
+}
+
+.footer-style {
+	color: #FA0050;
+	text-align: center;
+}
